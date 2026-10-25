@@ -1,0 +1,11 @@
+CREATE DATABASE DBlogin;
+
+USE DBlogin;
+
+CREATE TABLE registers (
+	id INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+	user_login VARCHAR (100) NOT NULL,
+	password_login VARCHAR (100) NOT NULL
+);
+
+SELECT * FROM registers;
